@@ -1,0 +1,25 @@
+= delivery-endpoint
+:TOC:
+
+== setup for development
+
+[bash]
+----
+anyenv install goenv
+goenv install 1.13.6
+
+asdf plugin-add protoc https://github.com/paxosglobal/asdf-protoc.git
+asdf install protoc 3.11.2
+----
+
+== make
+
+----
+make run
+
+make build
+----
+
+== 参考
+
+* link:https://qiita.com/emonuh/items/28dbee9bf2fe51d28153[golangの高速な構造化ログライブラリ「zap」の使い方]
